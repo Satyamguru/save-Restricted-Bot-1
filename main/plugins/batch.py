@@ -105,17 +105,17 @@ async def run_batch(userbot, client, sender, countdown, link):
     for i in range(len(ids)):
         timer = 6
         if i < 250:
-            timer = 2
+            timer = 10
         elif i < 1000 and i > 100:
-            timer = 3
+            timer = 10
         elif i < 10000 and i > 1000:
-            timer = 4
+            timer = 10
         elif i < 50000 and i > 10000:
-            timer = 5
+            timer = 10
         elif i < 100000 and i > 50000:
-            timer = 6
+            timer = 10
         elif i < 200000 and i > 100000:
-            timer = 8
+            timer = 10
         elif i < 1000000: 
             timer = 10
         
